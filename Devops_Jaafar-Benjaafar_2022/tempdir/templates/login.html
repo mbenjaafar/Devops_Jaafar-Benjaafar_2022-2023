@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <h1>Signup and Login Page</h1>
+        <br>
+        <form action="{{url_for('signupSuccess')}}" method="POST">
+            <h3>Singup</h3>
+            <p>Username</p>
+            <input type="text" name="usernameSingup" /></br>
+            <p>Password</p>
+            <input type="password" name="passwordSignup" /><br>
+            <input type="submit" value="submit" /><br>
+        </form>
+
+        <br>
+        <form action="{{url_for('loginSuccess')}}" method="POST">
+            <h3>login</h3>
+            <p>Username</p>
+            <input type="text" name="username" /></br>
+            <p>Password</p>
+            <input type="password" name="password" /><br>
+            <input type="submit" value="submit" /><br>
+        </form>
+        <br>
+</body>
+
+</html>
