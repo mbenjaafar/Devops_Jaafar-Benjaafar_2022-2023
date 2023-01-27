@@ -28,7 +28,7 @@ import json
 #    Following this comment and using the accessToken variable below, modify the code to
 #    ask the user to use either hard-coded or user-entered access token.
 
-<!!!REPLACEME with code to ask user for the Cisco Spark Access Token or use a hardcoded one!!!>
+##<!!!REPLACEME with code to ask user for the Cisco Spark Access Token or use a hardcoded one!!!>
 	
 #########################################################################################
 #  Build request components, URI and header with bearer token 

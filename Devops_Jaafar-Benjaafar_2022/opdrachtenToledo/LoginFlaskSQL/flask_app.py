@@ -6,7 +6,7 @@ import requests
 import urllib.parse
 from flask import Flask, redirect, url_for, session, request, jsonify
 from flask_oauthlib.client import OAuth
-from flask_ngrok import run_with_ngrok
+from Flaskapp.flask_ngrok import run_with_ngrok
 from flask import request
 from flask import render_template
 import ntplib
